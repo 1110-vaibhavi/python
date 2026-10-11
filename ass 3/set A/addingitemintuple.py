@@ -1,0 +1,5 @@
+num_tuple=(1,2,3,4,5)
+num_list=list(num_tuple)
+num_list.append(6)
+num_tuple=tuple(num_list)
+print(num_tuple)
